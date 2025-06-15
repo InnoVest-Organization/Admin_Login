@@ -32,7 +32,7 @@ function Login() {
 
     if (credentials.username === 'admin' && credentials.password === 'admin123') {
       await login();
-      navigate('/dashboard');
+      navigate('/create-investor');
     } else {
       setError('Invalid username or password');
     }
